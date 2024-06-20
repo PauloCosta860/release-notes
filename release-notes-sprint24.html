@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+         <head>
+            <title>Release Notes v2</title>
+            <meta charset="utf-8">
+            <style>
+.container {
+    width: 900px;
+    margin: 100px auto 200px auto;
+}
+
+</style>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600');
+
+body {
+    font-family: 'Calibri', serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.group {
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    background: #06A08B;
+    color: #ffffff;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+h4 {
+    font-size: 14px;
+    margin: 0;
+    background: #ffffff;
+    color: #06A08B;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.item {
+    border-left: 3px solid rgb(247, 247, 247);
+    border-right: 3px solid rgb(247, 247, 247);
+    border-top: 3px solid rgb(247, 247, 247);
+    border-bottom: 3px solid rgb(247, 247, 247);
+
+
+    margin-top: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    page-break-inside: avoid;
+}
+
+.description {
+    margin: 20px 0 30px 0;
+}
+
+/* make sure wide images don't scale PDF contents unexpectedly */
+
+img {
+    max-width: 90%;
+}
+
+/* fix to avoid issues when pages breaks occur inside tables */
+
+table th,
+table td {
+    border-top: 1px solid #ddd;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    display: table-header-group;
+}
+
+tfoot {
+    display: table-row-group;
+}
+
+tr {
+    page-break-inside: avoid;
+}
+
+            </style>
+         </head>
+         <body class="rn-body rn-content">
+            <div class="container">
+<h1 id="0">Release Notes</h1>
+<p>Please find below the list of items deployed in this sprint. Please familiarize yourselves with the changes that affect your role.</p>
+<h2 id="6">New in this release</h2>
+<div class="group" data-node="3">
+<h3 id="10">CORE</h3>
+<div class="workitems">
+<div class="item item-feature">
+<h4 id="15">2358 - when the COH is completed, The process should moves automatically to the billing stage</h4>
+<div class="description"><div>The process of moving from Confirmation to Billing has been automated and when the COH is complete (<span style="color:rgba(0, 0, 0, 0.9);font-size:15px;display:inline !important;">Auxilium Signatory and Client Signatory are entered, and the COH document is there)</span>. </div><div><img src="https://public.bravonotes.com/img/AuxiliumES/d791adb4-8ab9-4937-b136-77b95e9d0237.png" alt=Image><br> </div></div>
+</div>
+<div class="item item-feature">
+<h4 id="21">2375 - Capture details from Passport into Employee Onboarding</h4>
+<div class="description"><div>Passport can be used to fetch information like&nbsp;<span style="display:inline !important;">First name, Last name, DoB, Passport number, and date of expiry.&nbsp;</span> </div><div><span style="display:inline !important;"><br></span> </div><div><span style="display:inline !important;"><img src="https://public.bravonotes.com/img/AuxiliumES/e2da5a65-b76c-459e-8ac0-182e87bd524c.png" alt=Image><br></span> </div><div><span style="display:inline !important;"><br></span> </div><div><span style="display:inline !important;"><img src="https://public.bravonotes.com/img/AuxiliumES/daa8cb0f-a1c6-4264-9d5f-39b3917d90d4.png" alt=Image><br></span> </div></div>
+</div>
+<div class="item item-feature">
+<h4 id="27">2863 - Employment Contract Digital Signature</h4>
+<div class="description"><div><div style="box-sizing:border-box;">DocuSign has been replaced with Adobe eSign feature. </div><div style="box-sizing:border-box;">Now internal Signatories &amp; Employees will receive email for signing the Employment Contract form using Adobe E-Signature Process. </div><div style="box-sizing:border-box;">A note will be added in Timeline about the status of the document where is at the current state in terms of Signing state. </div><div style="box-sizing:border-box;">Once the <span style="display:inline !important;">Employment Contract&nbsp;</span>form has been signed, all participant parties will receive an email with signed pdf <span style="display:inline !important;">Employment Contract&nbsp;</span>in their mailboxes respectively. </div><br> </div></div>
+</div>
+<div class="item item-feature">
+<h4 id="33">2864 - Quarterly Client Satisfaction Survey</h4>
+<div class="description"><div>From now on, Client Satisfaction Survey will be sent automatically and in bulk to all primary and admin contacts related to the client contract<br> </div></div>
+</div>
+</div>
+</div>
+<div class="group" data-node="3">
+<h3 id="41">Customer Service</h3>
+<div class="workitems">
+<div class="item item-feature">
+<h4 id="46">2856 - Initial Response SLA for cases</h4>
+<div class="description"><div><p style="margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0cm;"><span lang=EN-US style="font-size:12.0pt;color:black;border:none windowtext 1.0pt;padding:0cm;">Now when creating a Case record from the Customer
+Services Workspace application, or sending an Email to a mailbox-related email,
+a response time count will start. The time for this response is given in the
+Case entity form. Also, in the form you will find a field to indicate that a
+first response to the case has already been given. If 8 business hours pass
+without a response, a notification is sent to the owner of the case and to the
+users who are in the queue or mailbox related to the case.</span> </p><br> </div></div>
+</div>
+<div class="item item-feature">
+<h4 id="52">2857 - Case Resolution SLA for cases</h4>
+<div class="description"><div><p style="margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0cm;"><span lang=EN-US style="font-size:12.0pt;color:black;border:none windowtext 1.0pt;padding:0cm;">Now when creating a Case record from the Customer
+Services Workspace application, or when sending an Email to an email related to
+a mailbox, a time count will start to resolve the case, which is 27 hours
+(Total). The time for this response is given in the Case entity form. Also, in
+the form you will find a field to indicate that a first response to the case
+has already been given. If 23 business hours pass without resolving the case, a
+notification is sent to the owner of the case and to the users who are in the
+queue or mailbox related to the case.</span> </p><br> </div></div>
+</div>
+<div class="item item-feature">
+<h4 id="58">2867 - Display Contact and Created date on the Case Card</h4>
+<div class="description"><div>On the case cards in the Customer Services Dashboard now <span style="display:inline !important;">the customer and the creation date<span>&nbsp;are shown</span></span><br> </div><div> </div><div> </div></div>
+</div>
+</div>
+</div>
+<div class="group" data-node="3">
+<h3 id="66">Portal EOR</h3>
+<div class="workitems">
+<div class="item item-feature">
+<h4 id="71">2771 - Improve the Client Registration Process</h4>
+<div class="description"><div><a href="#" data-vss-mention="version:2.0,7a6093c8-7e0e-61ed-b0a0-4992d9ae1726">@Mohib Ali Khan Auxilium</a>&nbsp;provide release notes for this if you can. </div></div>
+</div>
+<div class="item item-feature">
+<h4 id="77">2817 - As a customer, I want to have strong password security, so that I can have a secure account protection.</h4>
+</div>
+<div class="item item-feature">
+<h4 id="82">2888 - Portal employee onboarding columns reordering</h4>
+</div>
+<div class="item item-feature">
+<h4 id="87">2890 - Portal-Add an Employee-Deployment particulars</h4>
+</div>
+<div class="item item-feature">
+<h4 id="92">2924 - Portal-Employee onboarding registration steps redesign</h4>
+</div>
+<div class="item item-feature">
+<h4 id="97">2944 - Reordering Active View Columns</h4>
+</div>
+</div>
+</div>
+<div class="group" data-node="3">
+<h3 id="104">No Area Level 2 defined</h3>
+<div class="workitems">
+<div class="item item-feature">
+<h4 id="109">2919 - Documentation of Payroll process</h4>
+<div class="description"><div>Payroll Process documentation was created.&nbsp; </div></div>
+</div>
+<div class="item item-feature">
+<h4 id="115">2937 - Invoice documentation</h4>
+<div class="description"><div>Now you can access the documentation for the Invoice process in the loop.<br> </div><div> </div></div>
+</div>
+</div>
+</div>
+<h2 id="122">Fixed in this release</h2>
+<div class="group" data-node="8">
+<h3 id="126">CORE</h3>
+<div class="workitems">
+<div class="item item-bugfix">
+<h4 id="131">2552 - Timeline has duplicated entries</h4>
+<div class="description"><div>To address the issue of timeline having duplicated entries, if the owner and the related client's CSM are the same, only one task will be created. If the owner and the CSM are different, two tasks will be created, each assigned to the corresponding owner. This ensures clarity and avoids redundancy in task assignments.<br> </div><div><br> </div><div> </div><div> </div></div>
+</div>
+<div class="item item-bugfix">
+<h4 id="137">2683 - Date fields are stored/displaying incorrectly in multiple entities</h4>
+<div class="description"><div>The Start Date field on the Employment Contract is now timezone-independent, ensuring consistent and accurate start dates regardless of the user's location. This enhancement improves reliability and accuracy in employment documentation across different time zones.<br> </div><div> </div><div> </div></div>
+</div>
+<div class="item item-bugfix">
+<h4 id="143">2868 - Cannot proceed from Billing Stage</h4>
+<div class="description"><div>The field limit for the &quot;Additional Employment Terms&quot; has now been increased to 4000. </div></div>
+</div>
+<div class="item item-bugfix">
+<h4 id="149">2883 - Client Received an invitation to Auxilium Portal</h4>
+<div class="description"><div><p style="margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0cm;"><span style="font-size:12.0pt;color:black;border:none windowtext 1.0pt;padding:0cm;"></span> </p>The process to notify the admin contact in the client contract with the portal invitation was modified to just add the admin roles but not to send a portal invitation. This will be in place until the portal development is completed.<br> </div></div>
+</div>
+<div class="item item-bugfix">
+<h4 id="155">2889 - Time entries were only created for 1st June for multiple contracts</h4>
+<p><span class="description">Issues with the timesheet entries for the month of June have been fixed.<br></span></p>
+</div>
+<div class="item item-bugfix">
+<h4 id="163">2921 - Issue with Salt Payroll</h4>
+<div class="description"><div><span style="display:inline !important;">The calculation of payroll days is now derived from timesheet entries filtered by employment contract.</span> </div></div>
+</div>
+<div class="item item-bugfix">
+<h4 id="169">3009 - Users don't have permissions to see timesheet tab from Payroll Employee</h4>
+<div class="description"><div>Now you can access a Payroll Employee record and view the corresponding calendar on the 'Timesheet' tab.<br> </div></div>
+</div>
+<div class="item item-bugfix">
+<h4 id="175">3024 - Issue With Some Invoices</h4>
+<div class="description"><div>Xero tracking options for SOA,Repa Group, VA Legal, Neeyamo were modified and synchronized with Xero. </div></div>
+</div>
+</div>
+</div>
+<div class="group" data-node="8">
+<h3 id="183">Customer Service</h3>
+<div class="workitems">
+<div class="item item-bugfix">
+<h4 id="188">2144 - CSW error: One of the scripts for this record has caused an error</h4>
+<div class="description"><div><p style="margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0cm;background:white;"><span lang=EN-US style="font-size:12.0pt;color:black;border:none windowtext 1.0pt;padding:0cm;">A wrong call to a Copilot's function&nbsp;<span style="font-family:Calibri, sans-serif;display:inline !important;">related to the Copilot Summary process</span> was fixed and the error screen is no longer being displayed when opening cases.&nbsp;</span> </p><br> </div></div>
+</div>
+<div class="item item-bugfix">
+<h4 id="194">2968 - Case Notification not working in PROD</h4>
+<div class="description"><div>The flows were modified, adding steps to notify users belonging to the “Concierge (Auxilium)” and “Support (Internal)” channels through Teams, depending on whether an email is sent to “concierge@auxiliumservices.com” or “concierge @auxiliumservices.com”, as the case may be or if the cases are added to the corresponding queues.<br> </div></div>
+</div>
+</div>
+</div>
+<div class="group" data-node="8">
+<h3 id="202">Portal FL</h3>
+<div class="workitems">
+<div class="item item-bugfix">
+<h4 id="207">2884 - Cropped Photos when uploading through FL Portal</h4>
+<div class="description"><div><p style="margin:0cm 0cm 8pt;font-size:11pt;font-family:Calibri, sans-serif;margin-bottom:0cm;"><span lang=EN-US style="font-size:12.0pt;color:black;border:none windowtext 1.0pt;padding:0cm;">It is identified that the problem is caused in the
+process of taking the Passport Photo field of the Freelance Application to the
+Employee Photo field in the Onboarding entity. The flow that carries out this
+process is modified so that within the flow the image is downloaded in full
+size from the Passport Photo field and then uploaded to the Employee Photo
+field.<span style="background:yellow;"></span></span> </p><br> </div></div>
+</div>
+</div>
+</div>
+<div class="group" data-node="8">
+<h3 id="215">Sales FL</h3>
+<div class="workitems">
+<div class="item item-bugfix">
+<h4 id="220">2892 - cannot proceed with Freelance Employee Onboarding BPF</h4>
+<div class="description"><div>EOB is now accessible. </div><div>Freelance BPF is now applicable </div></div>
+</div>
+</div>
+</div>
+
+</div>
+         </body>
+</html>
